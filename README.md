@@ -14,5 +14,15 @@ Python, pandas, matplotlib and seaborn.
 3. Age alone does not predict spending, but age combined with product category shows
    clear differences.
 
+## Task 3: Cleaning Data
+Cleaned a dirty cafe sales dataset (10,000 rows) with missing values, ERROR/UNKNOWN
+placeholders and wrong data types. Recovered missing numbers from Total = Quantity x Price.
+Missing/invalid cells dropped from 10,082 to 460 (the remaining ones are missing dates).
+
+**Files**
+- `Task3_Data_Cleaning.ipynb`: the cleaning notebook
+- `cleaned_cafe_sales.csv`: the cleaned dataset
+
 ## Tasks completed
 - [x] Level 1, Task 1: EDA on Retail Sales Data
+- [x] Level 1, Task 3: Cleaning Data
