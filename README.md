@@ -23,6 +23,17 @@ Missing/invalid cells dropped from 10,082 to 460 (the remaining ones are missing
 - `Task3_Data_Cleaning.ipynb`: the cleaning notebook
 - `cleaned_cafe_sales.csv`: the cleaned dataset
 
+## Level 2, Task 1: House Price Prediction
+Linear regression on 545 houses (area, bathrooms, air conditioning, furnishing and more)
+using Python, pandas and scikit-learn. Test R² = 0.653, RMSE ≈ 1.32M. Main price
+drivers: bathrooms, air conditioning and preferred area. The model under-predicts
+expensive houses.
+
+**Files**
+- `Task4_House_Price_Prediction.ipynb`: the analysis and model notebook
+- `Housing.csv`: dataset (Kaggle, Housing Prices Dataset, CC0 license)
+
 ## Tasks completed
 - [x] Level 1, Task 1: EDA on Retail Sales Data
 - [x] Level 1, Task 3: Cleaning Data
+- [x] Level 2, Task 1: Predicting House Prices with Linear Regression
