@@ -33,7 +33,18 @@ expensive houses.
 - `Task4_House_Price_Prediction.ipynb`: the analysis and model notebook
 - `Housing.csv`: dataset (Kaggle, Housing Prices Dataset, CC0 license)
 
+## Level 2, Task 2: Wine Quality Prediction
+Classified wine quality (low, medium, high) from the chemical properties of 5,329 wines
+(after removing 1,168 duplicates) using Random Forest, SGD and SVC. Random Forest was
+best (accuracy 0.62, macro F1 0.61). Alcohol, density and volatile acidity were the most
+important features.
+
+**Files**
+- `Task5_Wine_Quality.ipynb`: the analysis and models
+- `winequalityN.csv`: dataset (Kaggle, Wine Quality)
+
 ## Tasks completed
 - [x] Level 1, Task 1: EDA on Retail Sales Data
 - [x] Level 1, Task 3: Cleaning Data
 - [x] Level 2, Task 1: Predicting House Prices with Linear Regression
+- [x] Level 2, Task 2: Wine Quality Prediction
