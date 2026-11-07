@@ -14,6 +14,15 @@ Python, pandas, matplotlib and seaborn.
 3. Age alone does not predict spending, but age combined with product category shows
    clear differences.
 
+## Level 1, Task 2: Customer Segmentation
+RFM analysis and K-Means clustering (K = 4) on 5,878 customers of a UK online retailer
+(Online Retail II UCI, 2009-2011). Segments: Champions (15% of customers, 69% of revenue),
+Loyal Regulars, Recent Low-Spenders and Lapsed/Lost, with marketing actions for each.
+
+**Files**
+- `Task6_Customer_Segmentation.ipynb`: the analysis notebook
+- Dataset: Online Retail II UCI (Kaggle), not included because of its size
+
 ## Task 3: Cleaning Data
 Cleaned a dirty cafe sales dataset (10,000 rows) with missing values, ERROR/UNKNOWN
 placeholders and wrong data types. Recovered missing numbers from Total = Quantity x Price.
@@ -44,7 +53,9 @@ important features.
 - `winequalityN.csv`: dataset (Kaggle, Wine Quality)
 
 ## Tasks completed
+
 - [x] Level 1, Task 1: EDA on Retail Sales Data
+- [x] Level 1, Task 2: Customer Segmentation Analysis
 - [x] Level 1, Task 3: Cleaning Data
 - [x] Level 2, Task 1: Predicting House Prices with Linear Regression
 - [x] Level 2, Task 2: Wine Quality Prediction
