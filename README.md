@@ -32,6 +32,15 @@ Missing/invalid cells dropped from 10,082 to 460 (the remaining ones are missing
 - `Task3_Data_Cleaning.ipynb`: the cleaning notebook
 - `cleaned_cafe_sales.csv`: the cleaned dataset
 
+## Level 1, Task 4: Sentiment Analysis
+Classified tweets as Positive, Negative or Neutral (69,061 tweets after cleaning) using
+TF-IDF with Naive Bayes and Logistic Regression. Data was split by tweet ID to prevent
+leakage. Logistic Regression reached 0.609 accuracy (macro F1 0.60), Naive Bayes 0.605.
+
+**Files**
+- `Task7_Sentiment_Analysis.ipynb`: the analysis notebook
+- Dataset: Twitter Sentiment Analysis (Kaggle)
+
 ## Level 2, Task 1: House Price Prediction
 Linear regression on 545 houses (area, bathrooms, air conditioning, furnishing and more)
 using Python, pandas and scikit-learn. Test R² = 0.653, RMSE ≈ 1.32M. Main price
@@ -57,5 +66,6 @@ important features.
 - [x] Level 1, Task 1: EDA on Retail Sales Data
 - [x] Level 1, Task 2: Customer Segmentation Analysis
 - [x] Level 1, Task 3: Cleaning Data
+- [x] Level 1, Task 4: Sentiment Analysis
 - [x] Level 2, Task 1: Predicting House Prices with Linear Regression
 - [x] Level 2, Task 2: Wine Quality Prediction
